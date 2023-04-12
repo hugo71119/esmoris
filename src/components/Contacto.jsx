@@ -41,7 +41,7 @@ export default function Contacto() {
                     <Link to='mailto: mailejemplo@gmail.com' className="text-decoration-none text-dark ">mailejemplo@gmail.com</Link>
                 </div>
             </div>
-            <div className="col-12 col-md-6">
+            <div className="col-12 col-md-6 mt-5 mt-md-0">
                 <h4 className="fs-1">Nuestras redes</h4>
                 <div className="d-flex gap-3 justify-content-center align-items-center mt-4">
                     <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className="bi bi-facebook" viewBox="0 0 16 16">
