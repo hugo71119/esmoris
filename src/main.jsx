@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
+import Error from './components/Error'
 import Layout from './components/Layout'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -18,7 +19,8 @@ const router = createBrowserRouter([
       },
       {
         path: '/contacto',
-        element: <Contacto/>
+        element: <Contacto/>,
+        errorElement: <Error/>
       }
     ]
   }
