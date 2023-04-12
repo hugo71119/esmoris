@@ -1,0 +1,20 @@
+.nav-bg{
+    background-color: #f6dade;
+}
+@media (min-width: 768px) { 
+    .tamano{
+        width: 375px;
+        height: 300px;
+    }
+}
+@media (max-width: 767px) { 
+    .tamano{
+        width: 320px;
+        height: 250px;
+    }
+}
+
+
+footer {
+    background-color: #ced8e0;
+}
