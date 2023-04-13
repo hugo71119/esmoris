@@ -13,8 +13,8 @@ function BasicExample() {
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto fw-bolder">
                 <Link className="nav-link" to="/">Inicio</Link>
-                <Link className="nav-link">Nosotros</Link>
-                <Link className="nav-link">Productos</Link>
+                <Link className="nav-link" to="/nosotros">Nosotros</Link>
+                <Link className="nav-link" to="/productos">Productos</Link>
                 <Link className="nav-link" to="/contacto">Contacto</Link>
             </Nav>
             </Navbar.Collapse>

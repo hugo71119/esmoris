@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <Layout/>
+      <h1>HOME</h1>
     </>
   )
 }

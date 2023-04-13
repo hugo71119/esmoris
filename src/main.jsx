@@ -7,6 +7,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css'
 import Contacto from './components/Contacto'
+import Nosotros from './components/Nosotros'
+import Productos from './components/Productos'
 
 const router = createBrowserRouter([
   {
@@ -15,7 +17,15 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <h1>HOME</h1>
+        element: <App/>
+      },
+      {
+        path: '/nosotros',
+        element: <Nosotros/>
+      },
+      {
+        path: '/productos',
+        element: <Productos/>
       },
       {
         path: '/contacto',
